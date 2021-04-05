@@ -1,0 +1,39 @@
+{   
+   "name": "Gioppo",   
+   "title": "Gioppo Compendiums",   
+   "description": "Personal compendium-sharing module.",   
+   "author": "Gioppo Luca",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.5",
+   "compatibleCoreVersion": "0.7.9",
+   "packs": [
+    {
+      "name": "races",
+      "label": "Racial Features (Gioppo)",
+      "path": "packs/races.db",
+      "entity": "Item",
+      "module": "Gioppo"
+    },
+    {
+      "name": "classFeatures",
+      "label": "Class Features (Gioppo)",
+      "path": "packs/class_features.db",
+      "entity": "Item",
+      "module": "Gioppo"
+    },
+    {
+      "name": "spells",
+      "label": "Spells (Gioppo)",
+      "path": "packs/spells.db",
+      "entity": "Item",
+      "module": "Gioppo"
+    },
+    {
+      "name": "classes",
+      "label": "Classes (Gioppo)",
+      "path": "packs/classes.db",
+      "entity": "Item",
+      "module": "Gioppo"
+    }
+  ]
+ }
